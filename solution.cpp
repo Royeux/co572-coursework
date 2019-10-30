@@ -1,3 +1,4 @@
+<<<<<<< HEAD:solution.cpp
 // #include <stdio.h>
 #include <iostream>
 #include <vector>
@@ -5,11 +6,23 @@
 #include "solution.h"
 
 using namespace std;
+=======
+#include <stdio.h>
+#include <stdlib.h>
+#include "solution.h"
+#include "database.h"
+>>>>>>> be4852896515dd1a92d8e19ebe897332d41771c2:solution.c
 
 int Query1(struct Database* db, int managerID, int price) {
   (void)db;        // prevent compiler warning about unused variable
   (void)managerID; // prevent compiler warning about unused variable
   (void)price;     // prevent compiler warning about unused variable
+<<<<<<< HEAD:solution.cpp
+=======
+  
+  int n = db->itemsCardinality;
+  qsort(db->items, n, 3, ComparePrice);
+>>>>>>> be4852896515dd1a92d8e19ebe897332d41771c2:solution.c
   
   //First, sort ItemTuple based on price attribute
   int n = sizeof(db->items)/sizeof(db->items[0]);
@@ -22,25 +35,32 @@ int Query1(struct Database* db, int managerID, int price) {
   //Build refers to the qualifying Order and probe refers to the qualifying Items
 
 
+<<<<<<< HEAD:solution.cpp
+=======
+  struct HashTableSlot {
+    int isOccupied;
+    struct OrderTuple value;
+  };
+>>>>>>> be4852896515dd1a92d8e19ebe897332d41771c2:solution.c
   extern struct HashTableSlot* hashTable;
 
-  int bitsize = 100;
+  size_t bitsize = 100;
   int hashSize = bitsize * 2;
   for (size_t i=0; i < bitsize; i++) {
     struct OrderTuple buildInput = build[i];
-    auto hashValue = hash(buildInput.salesDate, hashSize);
+    int hashValue = hash(buildInput.salesDate, hashSize);
     while (hashTable[hashValue].isOccupied) {
       hashValue = nextSlot(hashValue, hashSize);
     };
-    hashTable[hashValue].isOccupied = true;
+    hashTable[hashValue].isOccupied = 1;
     hashTable[hashValue].value = buildInput;
   };
 
-  int sortsize = 100;
+  size_t sortsize = 100;
   int count = 0;
   for (size_t i = 0; i < sortsize; i++) {
     struct ItemTuple probeInput = probe[i];
-    auto hashValue = hash(probeInput.salesDate, hashSize);
+    int hashValue = hash(probeInput.salesDate, hashSize);
     while (hashTable[hashValue].isOccupied && hashTable[hashValue].value.salesDate != probeInput.salesDate) {
       hashValue = nextSlot(hashValue, hashSize);
     };
@@ -50,8 +70,13 @@ int Query1(struct Database* db, int managerID, int price) {
       };
     };
   };
+<<<<<<< HEAD:solution.cpp
 
   return count;
+=======
+  return count;
+  
+>>>>>>> be4852896515dd1a92d8e19ebe897332d41771c2:solution.c
 }
 
 int Query2(struct Database* db, int discount, int date) {
@@ -76,6 +101,7 @@ void DestroyIndices(struct Database* db) {
   db->indices = NULL;
 }
 
+<<<<<<< HEAD:solution.cpp
 
 int comparePrice(const void *p, const void *q){
   int x = *(const int *)p;
@@ -91,10 +117,23 @@ int comparePrice(const void *p, const void *q){
 }
 
 
+=======
+>>>>>>> be4852896515dd1a92d8e19ebe897332d41771c2:solution.c
 int hash(int key, int hashSize) {
   return key % (hashSize);
-};
+}
 
 int nextSlot(int key, int hashSize) {
   return (key + 1) % (hashSize);
+<<<<<<< HEAD:solution.cpp
 };
+=======
+}
+
+int ComparePrice(const void *a, const void *b) {
+  struct ItemTuple *x = (struct ItemTuple *) a;
+  struct ItemTuple *y = (struct ItemTuple *) b;
+  return (x->price - y->price);
+}
+
+>>>>>>> be4852896515dd1a92d8e19ebe897332d41771c2:solution.c

@@ -1,0 +1,1 @@
+cmd='/usr/local/Cellar/cmake/3.15.4/bin/cmake;-DCMAKE_INSTALL_PREFIX=/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework/Release/deps;-DBENCHMARK_DOWNLOAD_DEPENDENCIES=ON;-DBENCHMARK_ENABLE_GTEST_TESTS=OFF;-DCMAKE_BUILD_TYPE=Release;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

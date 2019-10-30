@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework/database.h
+stdlib.h
+-
+
+/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework/solution.c
+stdio.h
+-
+solution.h
+/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework/solution.h
+
+/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework/solution.h
+database.h
+/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework/database.h
+
