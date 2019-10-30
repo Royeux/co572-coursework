@@ -2,6 +2,7 @@
 #define DATABASE_H_
 
 #include <stdlib.h>
+#include <bitset>
 
 struct ItemTuple
 {
@@ -36,5 +37,9 @@ struct Database {
     void* indices;
 };
 
+struct Bitmap {
+    struct BitVector* bitset;
+    size_t bitSetSize;
+}
 
 #endif
