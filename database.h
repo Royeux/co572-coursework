@@ -2,7 +2,7 @@
 #define DATABASE_H_
 
 #include <stdlib.h>
-#include <bitset>
+//#include <bitset>
 
 struct ItemTuple
 {

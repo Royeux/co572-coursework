@@ -1,43 +1,41 @@
-#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 #include "solution.h"
-using namespace std;
+#include "database.h"
 
 int Query1(struct Database* db, int managerID, int price) {
-  
-  int n = sizeof(db[0])/sizeof(db[0][0]);
-  sort(db[0][0][2], db[0][0][2+n], ComparePrice);
-  
-
   (void)db;        // prevent compiler warning about unused variable
   (void)managerID; // prevent compiler warning about unused variable
   (void)price;     // prevent compiler warning about unused variable
-<<<<<<< HEAD
+  
+  int n = db->itemsCardinality;
+  qsort(db->items, n, 3, ComparePrice);
   
   // Build refers to the qualifying Order and probe refers to the qualifying Items
 
   struct HashTableSlot {
-    bool isOccupied;
+    int isOccupied;
     struct OrderTuple value;
   };
   extern struct HashTableSlot* hashTable;
 
-  int bitsize = 100;
+  size_t bitsize = 100;
   int hashSize = bitsize * 2;
   for (size_t i=0; i < bitsize; i++) {
     struct OrderTuple buildInput = build[i];
-    auto hashValue = hash(buildInput.salesDate, hashSize);
+    int hashValue = hash(buildInput.salesDate, hashSize);
     while (hashTable[hashValue].isOccupied) {
       hashValue = nextSlot(hashValue, hashSize);
     };
-    hashTable[hashValue].isOccupied = true;
+    hashTable[hashValue].isOccupied = 1;
     hashTable[hashValue].value = buildInput;
   };
 
-  int sortsize = 100;
+  size_t sortsize = 100;
   int count = 0;
   for (size_t i = 0; i < sortsize; i++) {
     struct ItemTuple probeInput = probe[i];
-    auto hashValue = hash(probeInput.salesDate, hashSize);
+    int hashValue = hash(probeInput.salesDate, hashSize);
     while (hashTable[hashValue].isOccupied && hashTable[hashValue].value.salesDate != probeInput.salesDate) {
       hashValue = nextSlot(hashValue, hashSize);
     };
@@ -48,14 +46,7 @@ int Query1(struct Database* db, int managerID, int price) {
     };
   };
   return count;
-=======
-
-  Bitmap bitmap{
-    
-  }
-
-  return 0;
->>>>>>> 60c22a4579bf614c91f8f02dc59a2cd4faa5edb3
+  
 }
 
 int Query2(struct Database* db, int discount, int date) {
@@ -80,19 +71,17 @@ void DestroyIndices(struct Database* db) {
   db->indices = NULL;
 }
 
-<<<<<<< HEAD
 int hash(int key, int hashSize) {
   return key % (hashSize);
-};
+}
 
 int nextSlot(int key, int hashSize) {
   return (key + 1) % (hashSize);
-};
-=======
-static bool ComparePrice(struct ItemTuple a, struct ItemTuple a) {
-
-  return (a.price < b.price)
 }
 
-struct bitmap
->>>>>>> 60c22a4579bf614c91f8f02dc59a2cd4faa5edb3
+int ComparePrice(const void *a, const void *b) {
+  struct ItemTuple *x = (struct ItemTuple *) a;
+  struct ItemTuple *y = (struct ItemTuple *) b;
+  return (x->price - y->price);
+}
+

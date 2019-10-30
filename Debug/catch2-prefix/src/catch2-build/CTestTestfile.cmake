@@ -1,0 +1,6 @@
+# CMake generated Testfile for 
+# Source directory: /Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework/Debug/catch2-prefix/src/catch2
+# Build directory: /Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework/Debug/catch2-prefix/src/catch2-build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.

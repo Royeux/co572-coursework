@@ -1,0 +1,19 @@
+# Hashes of file build rules.
+f37b0b33adfc8b2b4a0736b9af3ebd48 CMakeFiles/catch2
+9292ee855949b5086fad592f7ac1092e CMakeFiles/catch2-complete
+f37b0b33adfc8b2b4a0736b9af3ebd48 CMakeFiles/googlebenchmark
+f6898ff96cdfdd2f48f8b4b54466e92c CMakeFiles/googlebenchmark-complete
+4905d1b7ca632e8e5849ca739f7bfffe catch2-prefix/src/catch2-stamp/catch2-build
+a93fe7a15b79043396d69b4be958fff8 catch2-prefix/src/catch2-stamp/catch2-configure
+7ed904afcdda1a14bc6880146cd096b0 catch2-prefix/src/catch2-stamp/catch2-download
+fe3d31b3e9396611e67b3ac8bda4bd53 catch2-prefix/src/catch2-stamp/catch2-install
+ae124a8af62dff771a9288a914b5972f catch2-prefix/src/catch2-stamp/catch2-mkdir
+11b5cabecd860c9f0edb0db733fe9c7f catch2-prefix/src/catch2-stamp/catch2-patch
+060491cad47d9906aa29207a8e7132ef catch2-prefix/src/catch2-stamp/catch2-update
+cb458b2a200ee554851cf1e06364edbd googlebenchmark-prefix/src/googlebenchmark-stamp/googlebenchmark-build
+bc83628a402c355341ef6caf1ff969f2 googlebenchmark-prefix/src/googlebenchmark-stamp/googlebenchmark-configure
+d5afa614c3cf71a190b58d2552733fc1 googlebenchmark-prefix/src/googlebenchmark-stamp/googlebenchmark-download
+428090a1a52dc7a32a7310daab83c098 googlebenchmark-prefix/src/googlebenchmark-stamp/googlebenchmark-install
+935a0c041f05c06c820ebb3c3f926dae googlebenchmark-prefix/src/googlebenchmark-stamp/googlebenchmark-mkdir
+eea1fd7bc8ce9ff655a868d47db1f001 googlebenchmark-prefix/src/googlebenchmark-stamp/googlebenchmark-patch
+84507514e1381193485daf39794f0eae googlebenchmark-prefix/src/googlebenchmark-stamp/googlebenchmark-update
