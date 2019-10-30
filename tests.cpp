@@ -1,8 +1,10 @@
 #define CATCH_CONFIG_MAIN
+#include <stdio.h>
+#include <iostream>
 #include "data_generator.h"
 #include "database.h"
 #include "solution.h"
-#include <catch2/catch.hpp>
+// #include <catch2/catch.hpp>
 
 int managerIDs[10] = {7, 26, 103, 14, 77, 42, 54, 112, 5, 115};
 int prices[10] = {200, 1205, 7221, 6590, 1800, 750, 968, 3500, 4550, 5225};

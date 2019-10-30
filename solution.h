@@ -11,6 +11,8 @@ int Query2(struct Database* db, int discount, int date);
 
 int Query3(struct Database* db, int countryID);
 
+bool comparePrice(struct ItemTuple a, struct ItemTuple b);
+
 void CreateIndices(struct Database* db);
 
 void DestroyIndices(struct Database* db);
