@@ -1,9 +1,17 @@
+#include <iostream>
 #include "solution.h"
+using namespace std;
 
 int Query1(struct Database* db, int managerID, int price) {
+  
+  int n = sizeof(db[0])/sizeof(db[0][0]);
+  sort(db[0][0][2], db[0][0][2+n], ComparePrice);
+  
+
   (void)db;        // prevent compiler warning about unused variable
   (void)managerID; // prevent compiler warning about unused variable
   (void)price;     // prevent compiler warning about unused variable
+<<<<<<< HEAD
   
   // Build refers to the qualifying Order and probe refers to the qualifying Items
 
@@ -40,6 +48,14 @@ int Query1(struct Database* db, int managerID, int price) {
     };
   };
   return count;
+=======
+
+  Bitmap bitmap{
+    
+  }
+
+  return 0;
+>>>>>>> 60c22a4579bf614c91f8f02dc59a2cd4faa5edb3
 }
 
 int Query2(struct Database* db, int discount, int date) {
@@ -64,6 +80,7 @@ void DestroyIndices(struct Database* db) {
   db->indices = NULL;
 }
 
+<<<<<<< HEAD
 int hash(int key, int hashSize) {
   return key % (hashSize);
 };
@@ -71,3 +88,11 @@ int hash(int key, int hashSize) {
 int nextSlot(int key, int hashSize) {
   return (key + 1) % (hashSize);
 };
+=======
+static bool ComparePrice(struct ItemTuple a, struct ItemTuple a) {
+
+  return (a.price < b.price)
+}
+
+struct bitmap
+>>>>>>> 60c22a4579bf614c91f8f02dc59a2cd4faa5edb3

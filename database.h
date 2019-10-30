@@ -2,6 +2,7 @@
 #define DATABASE_H_
 
 #include <stdlib.h>
+#include <bitset>
 
 struct ItemTuple
 {
@@ -35,6 +36,5 @@ struct Database {
     size_t storesCardinality;
     void* indices;
 };
-
 
 #endif
