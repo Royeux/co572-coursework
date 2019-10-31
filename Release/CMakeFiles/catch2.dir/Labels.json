@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/CMakeFiles/catch2"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/CMakeFiles/catch2.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/CMakeFiles/catch2-complete.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/catch2-prefix/src/catch2-stamp/catch2-install.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/catch2-prefix/src/catch2-stamp/catch2-mkdir.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/catch2-prefix/src/catch2-stamp/catch2-download.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/catch2-prefix/src/catch2-stamp/catch2-update.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/catch2-prefix/src/catch2-stamp/catch2-patch.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/catch2-prefix/src/catch2-stamp/catch2-configure.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/catch2-prefix/src/catch2-stamp/catch2-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"catch2"
+		],
+		"name" : "catch2"
+	}
+}
