@@ -8,41 +8,46 @@ int Query1(struct Database* db, int managerID, int price) {
   (void)managerID; // prevent compiler warning about unused variable
   (void)price;     // prevent compiler warning about unused variable
   
-  /*
-  int n = db->itemsCardinality;
-  qsort(db->items, n, 3, ComparePrice);
+  (void)db;        // prevent compiler warning about unused variable
+  (void)managerID; // prevent compiler warning about unused variable
+  (void)price;     // prevent compiler warning about unused variable
   
   // Build refers to the qualifying Order and probe refers to the qualifying Items
 
-  struct HashTableSlot {
-    int isOccupied;
-    struct OrderTuple value;
-  };
-  extern struct HashTableSlot* hashTable;
+  #define SIZE 32771
+  struct OrderTuple* hashTable[SIZE];
+  printf("Built hashtable\n");
 
-  size_t bitsize = 100;
-  int hashSize = bitsize * 2;
-  for (size_t i=0; i < bitsize; i++) {
-    struct OrderTuple buildInput = build[i];
-    int hashValue = hash(buildInput.salesDate, hashSize);
-    while (hashTable[hashValue].isOccupied) {
-      hashValue = nextSlot(hashValue, hashSize);
+  int n_order = db->ordersCardinality;
+  for (int i=0; i < n_order; i++) {
+    struct OrderTuple orderInput = db->orders[i];
+    if (orderInput.employeeManagerID == managerID) {
+      int hashValue = hash(orderInput.salesDate, SIZE);
+      printf("Hash value for %d is %d\n", i, hashValue);
+      // int factor = 0;
+      while (hashTable[hashValue] != NULL) {
+        hashValue = nextSlot(hashValue, SIZE);
+        printf("In while\n");
+      }
+      hashTable[hashValue] = &orderInput;
+      printf("Put in\n");
     }
-    hashTable[hashValue].isOccupied = 1;
-    hashTable[hashValue].value = buildInput;
   }
-
-  size_t sortsize = 100;
+  /*
+  int n_items = db->itemsCardinality;
   int count = 0;
-  for (size_t i = 0; i < sortsize; i++) {
-    struct ItemTuple probeInput = probe[i];
-    int hashValue = hash(probeInput.salesDate, hashSize);
-    while (hashTable[hashValue].isOccupied && hashTable[hashValue].value.salesDate != probeInput.salesDate) {
-      hashValue = nextSlot(hashValue, hashSize);
-    }
-    if(hashTable[hashValue].value.salesDate == probeInput.salesDate) {
-      if (hashTable[hashValue].value.employee == probeInput.employee) {
-        count++;
+  for (int i = 0; i < n_items; i++) {
+    struct ItemTuple itemProbe = db->items[i];
+    if (itemProbe.price < 1) {
+      int hashValue = hash(itemProbe.salesDate, SIZE);
+      // int factor = 0;
+      while (hashTable[hashValue]->isOccupied && hashTable[hashValue]->value.salesDate != itemProbe.salesDate) {
+        hashValue = nextSlot(hashValue, SIZE);
+      }
+      if(hashTable[hashValue]->value.salesDate == itemProbe.salesDate) {
+        if (hashTable[hashValue]->value.employee == itemProbe.employee) {
+          count++;
+        }
       }
     }
   }
