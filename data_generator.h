@@ -1,6 +1,5 @@
 #ifndef _DATA_GENERATOR_H_
 #define _DATA_GENERATOR_H_
-
 #include <algorithm>
 #include <chrono>
 #include <cstdint>

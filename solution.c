@@ -13,6 +13,7 @@ int Query1(struct Database* db, int managerID, int price) {
   (void)managerID; // prevent compiler warning about unused variable
   (void)price;     // prevent compiler warning about unused variable
   
+  /*
   int n = db->itemsCardinality;
   qsort(db->items, n, 3, ComparePrice);
   
@@ -51,57 +52,36 @@ int Query1(struct Database* db, int managerID, int price) {
     }
   }
   return count;
+  */
+  return 0;
 }
 
 int Query2(struct Database* db, int discount, int date) {
   (void)db;       // prevent compiler warning about unused variable
   (void)discount; // prevent compiler warning about unused variable
   (void)date;     // prevent compiler warning about unused variable
-  
-  // Use bitmap to find order discount == discount and return refined order table
-
-  /*
-  // Sort Items Sales Date
-  int n_items = db->itemsCardinality;
-  qsort(db->items, n_items, 3, CompareItemSalesDate);
-  // Sort Orders Sales Date
-  int n_orders = db->ordersCardinality; //might need to replace with refined table
-  qsort(db->orders, n_orders, 4, CompareOrderSalesDate);
-
-  // Sort-merge join
-  int leftI = 0;
-  int rightI = 0;
-  int count = 0;
-  while (leftI < n_orders && rightI < n_items) {
-    struct OrderTuple leftInput = db->orders[leftI]
-    struct ItemTuple rightInput = db->items[rightI]
-    if (leftInput.salesDate < rightInput.salesDate) {
-      leftI++;
-    }
-    else if (leftInput.salesDate > (rightInput.salesDate + date)){
-      rightI++;
-    }
-    else 
-  }
-  */
-
+    
   int n_orders = db->ordersCardinality;
   struct OrderNode *root = NULL;
   for (int i=0; i < n_orders; i++) {
-    root = insert(root, db->orders[i]);
+    if (db->orders[i].discount == discount) {
+      root = insert(root, db->orders[i]);
+    }
   }
   inorder(root);
 
-  //int n_items = db->itemsCardinality;
+  int n_items = db->itemsCardinality;
   int totalCount = 0;
-  for (int i=0; i < 1; i++) {
+  for (int i=0; i < n_items; i++) {
     int itemSalesDate = db->items[i].salesDate;
     int thisCount = searchBST(root, itemSalesDate, itemSalesDate+date);
-    printf("Count for salesdate %d with difference %d: %d\n", itemSalesDate, date, thisCount);
+    //printf("Count for salesdate %d with difference %d: %d\n", itemSalesDate, date, thisCount);
     totalCount = totalCount + thisCount;
   }
+  //printf("%d", totalCount);
   return totalCount;
 }
+
 
 int Query3(struct Database* db, int countryID) {
   (void)db;        // prevent compiler warning about unused variable
@@ -182,10 +162,8 @@ int searchBST(struct OrderNode *root, int lowerbound, int upperbound) {
   if (root == NULL) {
     return 0; 
   }   
-  printf("Root salesdate %d, LB: %d, UB: %d\n", root->salesDate, lowerbound, upperbound);
   /* if root's data lies in range, then prints root's data */
   if ( lowerbound <= root->salesDate && upperbound >= root->salesDate) {
-    printf("Within root salesdate %d\n", root->salesDate);
     return root->count + searchBST(root->left, lowerbound, upperbound) + searchBST(root->right, lowerbound, upperbound);
   } 
   /* Recurse for left subtree first. If root->data is greater than lowerbound, 

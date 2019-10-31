@@ -2,6 +2,7 @@
 	"sources" : 
 	[
 		{
+<<<<<<< HEAD
 			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/googlebenchmark"
 		},
 		{
@@ -30,6 +31,36 @@
 		},
 		{
 			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/154d0b6fce34772c8b744e88b21cb3b8/googlebenchmark-build.rule"
+=======
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/CMakeFiles/googlebenchmark"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/CMakeFiles/googlebenchmark.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/CMakeFiles/googlebenchmark-complete.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/googlebenchmark-prefix/src/googlebenchmark-stamp/googlebenchmark-install.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/googlebenchmark-prefix/src/googlebenchmark-stamp/googlebenchmark-mkdir.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/googlebenchmark-prefix/src/googlebenchmark-stamp/googlebenchmark-download.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/googlebenchmark-prefix/src/googlebenchmark-stamp/googlebenchmark-update.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/googlebenchmark-prefix/src/googlebenchmark-stamp/googlebenchmark-patch.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/googlebenchmark-prefix/src/googlebenchmark-stamp/googlebenchmark-configure.rule"
+		},
+		{
+			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/googlebenchmark-prefix/src/googlebenchmark-stamp/googlebenchmark-build.rule"
+>>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
 		}
 	],
 	"target" : 
