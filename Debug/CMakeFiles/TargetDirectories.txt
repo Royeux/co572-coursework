@@ -1,7 +1,0 @@
-/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework/Debug/CMakeFiles/rebuild_cache.dir
-/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework/Debug/CMakeFiles/macrobenchmark.dir
-/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework/Debug/CMakeFiles/edit_cache.dir
-/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework/Debug/CMakeFiles/tests.dir
-/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework/Debug/CMakeFiles/catch2.dir
-/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework/Debug/CMakeFiles/microbenchmarks.dir
-/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework/Debug/CMakeFiles/googlebenchmark.dir
