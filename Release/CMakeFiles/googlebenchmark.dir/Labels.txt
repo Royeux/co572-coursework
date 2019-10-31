@@ -1,0 +1,13 @@
+# Target labels
+ googlebenchmark
+# Source files and their labels
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/googlebenchmark
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/928ca61771083bc742ad0b21ff4aa21c/googlebenchmark.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/8fed65f312ae17a64b23ac6f34004fc9/googlebenchmark-complete.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/154d0b6fce34772c8b744e88b21cb3b8/googlebenchmark-install.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/154d0b6fce34772c8b744e88b21cb3b8/googlebenchmark-mkdir.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/154d0b6fce34772c8b744e88b21cb3b8/googlebenchmark-download.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/154d0b6fce34772c8b744e88b21cb3b8/googlebenchmark-update.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/154d0b6fce34772c8b744e88b21cb3b8/googlebenchmark-patch.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/154d0b6fce34772c8b744e88b21cb3b8/googlebenchmark-configure.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/154d0b6fce34772c8b744e88b21cb3b8/googlebenchmark-build.rule

@@ -1,0 +1,1 @@
+cmd='C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_INSTALL_PREFIX=C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/deps;-DBENCHMARK_DOWNLOAD_DEPENDENCIES=ON;-DBENCHMARK_ENABLE_GTEST_TESTS=OFF;-DCMAKE_BUILD_TYPE=Debug;-GVisual Studio 16 2019;-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community;<SOURCE_DIR><SOURCE_SUBDIR>'

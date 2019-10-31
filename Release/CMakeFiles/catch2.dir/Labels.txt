@@ -1,0 +1,13 @@
+# Target labels
+ catch2
+# Source files and their labels
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/catch2
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/928ca61771083bc742ad0b21ff4aa21c/catch2.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/8fed65f312ae17a64b23ac6f34004fc9/catch2-complete.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/1877c1eeeaed21d54127e5ce10838bac/catch2-install.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/1877c1eeeaed21d54127e5ce10838bac/catch2-mkdir.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/1877c1eeeaed21d54127e5ce10838bac/catch2-download.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/1877c1eeeaed21d54127e5ce10838bac/catch2-update.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/1877c1eeeaed21d54127e5ce10838bac/catch2-patch.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/1877c1eeeaed21d54127e5ce10838bac/catch2-configure.rule
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/1877c1eeeaed21d54127e5ce10838bac/catch2-build.rule

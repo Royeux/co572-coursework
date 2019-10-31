@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/googlebenchmark"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/928ca61771083bc742ad0b21ff4aa21c/googlebenchmark.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/8fed65f312ae17a64b23ac6f34004fc9/googlebenchmark-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/154d0b6fce34772c8b744e88b21cb3b8/googlebenchmark-install.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/154d0b6fce34772c8b744e88b21cb3b8/googlebenchmark-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/154d0b6fce34772c8b744e88b21cb3b8/googlebenchmark-download.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/154d0b6fce34772c8b744e88b21cb3b8/googlebenchmark-update.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/154d0b6fce34772c8b744e88b21cb3b8/googlebenchmark-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/154d0b6fce34772c8b744e88b21cb3b8/googlebenchmark-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/154d0b6fce34772c8b744e88b21cb3b8/googlebenchmark-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googlebenchmark"
+		],
+		"name" : "googlebenchmark"
+	}
+}

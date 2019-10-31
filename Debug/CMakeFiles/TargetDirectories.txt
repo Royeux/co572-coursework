@@ -1,0 +1,7 @@
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/CMakeFiles/googlebenchmark.dir
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/CMakeFiles/tests.dir
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/CMakeFiles/macrobenchmark.dir
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/CMakeFiles/catch2.dir
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/CMakeFiles/microbenchmarks.dir
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/CMakeFiles/ALL_BUILD.dir
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/CMakeFiles/ZERO_CHECK.dir
