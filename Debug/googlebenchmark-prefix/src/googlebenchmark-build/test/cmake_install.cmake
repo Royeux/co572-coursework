@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-# Install script for directory: C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark/test
+# Install script for directory: /Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/deps")
-=======
-# Install script for directory: /Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark/test
-
-# Set the install prefix
-if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/deps")
->>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
+  set(CMAKE_INSTALL_PREFIX "/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -20,11 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-<<<<<<< HEAD
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
-=======
     set(CMAKE_INSTALL_CONFIG_NAME "Debug")
->>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()

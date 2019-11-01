@@ -22,24 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-<<<<<<< HEAD
-       file='C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz'")
+       file='/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz'")
 
-  file("" "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz" actual_value)
-=======
-       file='/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz'")
-
-  file("" "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz" actual_value)
->>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
+  file("" "/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS " hash of
-<<<<<<< HEAD
-    C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz
-=======
-    /Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz
->>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
+    /Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz
   does not match expected value
     expected: ''
       actual: '${actual_value}'")
@@ -81,11 +71,7 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-<<<<<<< HEAD
-if("C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz" STREQUAL "")
-=======
-if("/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz" STREQUAL "")
->>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
+if("/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz" STREQUAL "")
   message(FATAL_ERROR "LOCAL can't be empty")
 endif()
 
@@ -93,55 +79,32 @@ if("https://github.com/catchorg/Catch2/archive/v2.9.1.tar.gz" STREQUAL "")
   message(FATAL_ERROR "REMOTE can't be empty")
 endif()
 
-<<<<<<< HEAD
-if(EXISTS "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz")
-=======
-if(EXISTS "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz")
->>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
+if(EXISTS "/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-<<<<<<< HEAD
-  file='C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz'
-=======
-  file='/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz'
->>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
+  file='/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz'
   =''"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-<<<<<<< HEAD
-      file(REMOVE "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz")
+      file(REMOVE "/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz'
+  file='/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz")
-=======
-      file(REMOVE "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz")
-    endif()
-  else()
-    message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz'
-Old file will be removed and new file downloaded from URL."
-    )
-    file(REMOVE "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz")
->>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
+    file(REMOVE "/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-<<<<<<< HEAD
-   dst='C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz'
-=======
-   dst='/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz'
->>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
+   dst='/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz'
    timeout='none'"
 )
 
@@ -158,11 +121,7 @@ foreach(i RANGE ${retry_number})
 
     file(
         DOWNLOAD
-<<<<<<< HEAD
-        "${url}" "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz"
-=======
-        "${url}" "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz"
->>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
+        "${url}" "/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz"
         SHOW_PROGRESS
         # no TIMEOUT
         STATUS status
@@ -178,11 +137,7 @@ foreach(i RANGE ${retry_number})
       check_file_hash(has_hash hash_is_good)
       if(has_hash AND NOT hash_is_good)
         message(STATUS "Hash mismatch, removing...")
-<<<<<<< HEAD
-        file(REMOVE "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz")
-=======
-        file(REMOVE "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz")
->>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
+        file(REMOVE "/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/catch2-prefix/src/v2.9.1.tar.gz")
       else()
         message(STATUS "Downloading... done")
         return()

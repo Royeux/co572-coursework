@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors 
 
 CXX_DEFINES = -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK
 
-CXX_INCLUDES = -I"/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark/include" -I"/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark/src" -I"/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark/src/../include" 
+CXX_INCLUDES = -I"/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark/include" -I"/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark/src" -I"/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark/src/../include" 
 

@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/solution.c" "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/CMakeFiles/tests.dir/solution.c.o"
+  "/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/solution.c" "/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/CMakeFiles/tests.dir/solution.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
@@ -14,7 +14,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "deps/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/tests.cpp" "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/CMakeFiles/tests.dir/tests.cpp.o"
+  "/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/tests.cpp" "/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Debug/CMakeFiles/tests.dir/tests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

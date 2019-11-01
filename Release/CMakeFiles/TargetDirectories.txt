@@ -1,17 +1,7 @@
-<<<<<<< HEAD
-C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/googlebenchmark.dir
-C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/tests.dir
-C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/macrobenchmark.dir
-C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/catch2.dir
-C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/microbenchmarks.dir
-C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/ALL_BUILD.dir
-C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/ZERO_CHECK.dir
-=======
-/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/CMakeFiles/rebuild_cache.dir
-/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/CMakeFiles/macrobenchmark.dir
-/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/CMakeFiles/edit_cache.dir
-/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/CMakeFiles/tests.dir
-/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/CMakeFiles/catch2.dir
-/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/CMakeFiles/microbenchmarks.dir
-/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/CMakeFiles/googlebenchmark.dir
->>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
+/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Release/CMakeFiles/rebuild_cache.dir
+/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Release/CMakeFiles/macrobenchmark.dir
+/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Release/CMakeFiles/edit_cache.dir
+/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Release/CMakeFiles/tests.dir
+/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Release/CMakeFiles/catch2.dir
+/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Release/CMakeFiles/microbenchmarks.dir
+/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Release/CMakeFiles/googlebenchmark.dir

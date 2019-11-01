@@ -1,12 +1,7 @@
 # Make file names absolute:
 #
-<<<<<<< HEAD
-get_filename_component(filename "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/catch2-prefix/src/v2.9.1.tar.gz" ABSOLUTE)
-get_filename_component(directory "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/catch2-prefix/src/catch2" ABSOLUTE)
-=======
-get_filename_component(filename "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/catch2-prefix/src/v2.9.1.tar.gz" ABSOLUTE)
-get_filename_component(directory "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/catch2-prefix/src/catch2" ABSOLUTE)
->>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
+get_filename_component(filename "/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Release/catch2-prefix/src/v2.9.1.tar.gz" ABSOLUTE)
+get_filename_component(directory "/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Release/catch2-prefix/src/catch2" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

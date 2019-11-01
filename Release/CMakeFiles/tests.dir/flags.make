@@ -7,11 +7,11 @@ C_FLAGS = -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX
 
 C_DEFINES = 
 
-C_INCLUDES = -isystem "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/deps/include" 
+C_INCLUDES = -isystem "/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Release/deps/include" 
 
 CXX_FLAGS = -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -Wall -Wextra -pedantic -Werror -march=native -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/deps/include" 
+CXX_INCLUDES = -isystem "/Users/MuddyPie/Desktop/LIFE/REP/Y3/ICL/Autumn/CO572 Advanced Databases/co572-coursework/Release/deps/include" 
 
