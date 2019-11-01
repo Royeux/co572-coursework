@@ -49,6 +49,8 @@ struct dataItem {
 
 struct dataItem *search(int key);
 
+int upperIndex(struct ItemTuple, int n, int y);
+
 #ifdef __cplusplus
 }
 #endif

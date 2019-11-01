@@ -5,6 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <math.h>
 
 #define SIZE 32771
 
@@ -13,6 +14,17 @@ int Query1(struct Database* db, int managerID, int price) {
   (void)managerID; // prevent compiler warning about unused variable
   (void)price;     // prevent compiler warning about unused variable
   
+  int n_items = db->itemsCardinality;
+  qsort(db->items, n_items, sizeof(db->items[0]), ComparePrice);
+  spliceDb(db, db->itemsCardinality, price);
+  
+
+  // splice out where price > variable x
+
+  // use hash index to find tuples from orders relation where managerid=variable
+
+  // hash join between items and orders, build items salesdate/employee
+
   /*
   int n = db->itemsCardinality;
   qsort(db->items, n, 3, ComparePrice);
@@ -81,7 +93,6 @@ int Query2(struct Database* db, int discount, int date) {
   //printf("%d", totalCount);
   return totalCount;
 }
-
 
 int Query3(struct Database* db, int countryID) {
   (void)db;        // prevent compiler warning about unused variable
@@ -211,7 +222,7 @@ int rehashFunc(int key, int factor) {
   return (key % SIZE) + pow(2, factor);
 }
 
-struct dataItem* search(int key) {
+struct dataItem* searchKey(int key) {
   int hashIndex = hashFunc(key);
   int x = 0;
   int factor = 0;
@@ -228,7 +239,7 @@ struct dataItem* search(int key) {
   return *outputArray;
 }
 
-void insertHashEntry(int key, int value1, int value2, int value3) {
+void insertEntry(int key, int value1, int value2, int value3) {
   struct dataItem *item = (struct dataItem*) malloc(sizeof(struct dataItem));
   item->key=key;
   item->value1=value1;
@@ -243,5 +254,21 @@ void insertHashEntry(int key, int value1, int value2, int value3) {
       factor++;
   }
   hashArray[hashIndex] = item;
+}
+
+int spliceDb(struct Database* db, int n, int y) {
+  
+  struct Database *x = (struct Database *) db;
+
+    int first = 0, last = n - 1; 
+    while (first <= last) { 
+        int mid = (first + last) / 2; 
+        if (x->items[mid].price <= y) 
+            first = mid + 1; 
+        else
+            last = mid - 1; 
+    }
+    x->items = (struct Database *)malloc(last);
+    return x;
 }
 
