@@ -8,52 +8,70 @@ int Query1(struct Database* db, int managerID, int price) {
   (void)managerID; // prevent compiler warning about unused variable
   (void)price;     // prevent compiler warning about unused variable
   
-  (void)db;        // prevent compiler warning about unused variable
-  (void)managerID; // prevent compiler warning about unused variable
-  (void)price;     // prevent compiler warning about unused variable
-  
-  // Build refers to the qualifying Order and probe refers to the qualifying Items
-
-  #define SIZE 32771
-  struct OrderTuple* hashTable[SIZE];
-  printf("Built hashtable\n");
+  #define SIZE 343
+  struct HashTableSlot* hashTable[SIZE] = {0, NULL};
+  printf("mgrId: %d, price: %d\n", managerID, price);  
 
   int n_order = db->ordersCardinality;
   for (int i=0; i < n_order; i++) {
     struct OrderTuple orderInput = db->orders[i];
     if (orderInput.employeeManagerID == managerID) {
       int hashValue = hash(orderInput.salesDate, SIZE);
-      printf("Hash value for %d is %d\n", i, hashValue);
       // int factor = 0;
       while (hashTable[hashValue] != NULL) {
         hashValue = nextSlot(hashValue, SIZE);
-        printf("In while\n");
       }
-      hashTable[hashValue] = &orderInput;
-      printf("Put in\n");
+      struct HashTableSlot *temp = (struct HashTableSlot*) malloc(sizeof(orderInput));
+      if (temp != NULL) {
+        temp->isOccupied = 1;
+        temp->value = orderInput;
+        hashTable[hashValue] = temp;
+      } else {
+        printf("malloc error");
+      }
+      //printf("Build Hash value for Order(%d, %d) is %d\n", orderInput.salesDate, orderInput.employee, hashValue);
     }
   }
+
   /*
+  for (int i=0; i < SIZE; i++) {
+    if (hashTable[i] != NULL) {
+      printf("Order(%d, %d) at hashValue %d\n", hashTable[i]->value.salesDate, hashTable[i]->value.employee, i);
+    }
+  }
+  */
+
   int n_items = db->itemsCardinality;
   int count = 0;
   for (int i = 0; i < n_items; i++) {
     struct ItemTuple itemProbe = db->items[i];
-    if (itemProbe.price < 1) {
+    if (itemProbe.price < price) {
       int hashValue = hash(itemProbe.salesDate, SIZE);
       // int factor = 0;
-      while (hashTable[hashValue]->isOccupied && hashTable[hashValue]->value.salesDate != itemProbe.salesDate) {
-        hashValue = nextSlot(hashValue, SIZE);
-      }
-      if(hashTable[hashValue]->value.salesDate == itemProbe.salesDate) {
-        if (hashTable[hashValue]->value.employee == itemProbe.employee) {
-          count++;
+      while (hashTable[hashValue] != NULL) {
+        if (hashTable[hashValue]->value.salesDate == itemProbe.salesDate) {
+          if (hashTable[hashValue]->value.employee == itemProbe.employee) {
+            count++;
+          }
         }
+        hashValue = nextSlot(hashValue, SIZE);
       }
     }
   }
+  printf("Count is %d\n", count);
+  
+  for (int i=0; i<SIZE; i++) {
+    if (hashTable[i] != NULL) {
+      //printf("%d isOccupied = %d\n", i, hashTable[i]->isOccupied);
+      if (hashTable[i]->isOccupied == 1) {
+        hashTable[i] = NULL;
+      }
+    }
+  }
+  //free(hashTable);
   return count;
-  */
-  return 0;
+
+  //return 0;
 }
 
 int Query2(struct Database* db, int discount, int date) {

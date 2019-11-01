@@ -14,6 +14,11 @@ struct OrderNode {
     struct OrderNode *right;
 };
 
+struct HashTableSlot {
+    int isOccupied;
+    struct OrderTuple value;
+};
+
 int Query1(struct Database* db, int managerID, int price);
 
 int Query2(struct Database* db, int discount, int date);
@@ -27,9 +32,7 @@ void DestroyIndices(struct Database* db);
 int CompareOrderSalesDate(const void *a, const void *b);
 
 int ComparePrice(const void *a, const void *b);
-
 struct OrderNode *newNode(struct OrderTuple newTuple);
-
 struct OrderNode* insert(struct OrderNode* node, struct OrderTuple newTuple);
 
 void inorder(struct OrderNode *root);
