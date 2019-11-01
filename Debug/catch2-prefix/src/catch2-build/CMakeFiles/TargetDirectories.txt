@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/catch2-build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/catch2-build/CMakeFiles/Experimental.dir
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/catch2-build/CMakeFiles/Continuous.dir
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/catch2-build/CMakeFiles/Nightly.dir
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/catch2-build/CMakeFiles/PACKAGE.dir
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/catch2-build/CMakeFiles/INSTALL.dir
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/catch2-build/CMakeFiles/RUN_TESTS.dir
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/catch2-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/catch2-prefix/src/catch2-build/CMakeFiles/ZERO_CHECK.dir
+=======
 /Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/catch2-build/CMakeFiles/install/strip.dir
 /Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/catch2-build/CMakeFiles/install/local.dir
 /Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/catch2-build/CMakeFiles/list_install_components.dir
@@ -35,3 +46,4 @@
 /Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/catch2-build/CMakeFiles/ExperimentalMemCheck.dir
 /Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/catch2-build/CMakeFiles/Continuous.dir
 /Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/catch2-prefix/src/catch2-build/CMakeFiles/Experimental.dir
+>>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48

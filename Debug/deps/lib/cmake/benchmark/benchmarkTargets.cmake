@@ -55,6 +55,10 @@ add_library(benchmark::benchmark STATIC IMPORTED)
 
 set_target_properties(benchmark::benchmark PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
+<<<<<<< HEAD
+  INTERFACE_LINK_LIBRARIES "Shlwapi"
+=======
+>>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
 )
 
 # Create imported target benchmark::benchmark_main

@@ -2,6 +2,11 @@
 #include "database.h"
 
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+#define SIZE 32771
 
 int Query1(struct Database* db, int managerID, int price) {
   (void)db;        // prevent compiler warning about unused variable
@@ -215,3 +220,51 @@ int CompareItemSalesDate(const void *a, const void *b) {
   struct ItemTuple *y = (struct ItemTuple *) b;
   return (x->salesDate - y->salesDate);
 }
+
+struct dataItem* hashArray[SIZE];
+struct dataItem* dummyItem;
+struct dataItem* item;
+struct dataItem* outputArray[SIZE];
+
+int hashFunc(int key) {
+  return key % SIZE;
+}
+
+int rehashFunc(int key, int factor) {
+  return (key % SIZE) + pow(2, factor);
+}
+
+struct dataItem* search(int key) {
+  int hashIndex = hashFunc(key);
+  int x = 0;
+  int factor = 0;
+
+  while(hashArray[hashIndex] != NULL && hashArray[hashIndex]->key != -1) {
+
+    if(hashArray[hashIndex]->key == key) {
+      outputArray[x] = hashArray[hashIndex];
+      x++;
+    }
+    hashIndex = rehashFunc(key, factor);
+    factor++;
+  }
+  return *outputArray;
+}
+
+void insertHashEntry(int key, int value1, int value2, int value3) {
+  struct dataItem *item = (struct dataItem*) malloc(sizeof(struct dataItem));
+  item->key=key;
+  item->value1=value1;
+  item->value2=value2;
+  item->value3=value3;
+
+  int hashIndex = hashFunc(key);
+  int factor = 0;
+
+  while(hashArray[hashIndex] != NULL && hashArray[hashIndex]->key != -1) {
+      hashIndex = rehashFunc(key, factor);
+      factor++;
+  }
+  hashArray[hashIndex] = item;
+}
+

@@ -43,6 +43,15 @@ int nextSlot(int key, int hashSize);
 
 int hash(int key, int hashSize);
 
+struct dataItem {
+    int key;
+    int value1;
+    int value2;
+    int value3;
+};
+
+struct dataItem *search(int key);
+
 #ifdef __cplusplus
 }
 #endif

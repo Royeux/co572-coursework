@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Release\CMakeFiles\928ca61771083bc742ad0b21ff4aa21c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3F6E42D8-0BDB-353F-82DC-3E70AC6F059B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

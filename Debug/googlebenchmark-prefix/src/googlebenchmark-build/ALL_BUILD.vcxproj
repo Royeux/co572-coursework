@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F158463D-C46D-368F-844E-5724AEA4C773}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark" "-BC:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark-build" --check-stamp-file "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\3.16.0-rc2\CMakeCXXCompiler.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\3.16.0-rc2\CMakeRCCompiler.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\3.16.0-rc2\CMakeSystem.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\AddCXXCompilerFlag.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\CXXFeatureCheck.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\GetGitVersion.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\gnu_posix_regex.cpp;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\posix_regex.cpp;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\std_regex.cpp;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\steady_clock.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark" "-BC:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark-build" --check-stamp-file "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\3.16.0-rc2\CMakeCXXCompiler.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\3.16.0-rc2\CMakeRCCompiler.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\3.16.0-rc2\CMakeSystem.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\AddCXXCompilerFlag.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\CXXFeatureCheck.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\GetGitVersion.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\gnu_posix_regex.cpp;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\posix_regex.cpp;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\std_regex.cpp;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\steady_clock.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark" "-BC:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark-build" --check-stamp-file "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\3.16.0-rc2\CMakeCXXCompiler.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\3.16.0-rc2\CMakeRCCompiler.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\3.16.0-rc2\CMakeSystem.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\AddCXXCompilerFlag.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\CXXFeatureCheck.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\GetGitVersion.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\gnu_posix_regex.cpp;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\posix_regex.cpp;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\std_regex.cpp;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\steady_clock.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark" "-BC:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark-build" --check-stamp-file "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/googlebenchmark-prefix/src/googlebenchmark-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\3.16.0-rc2\CMakeCXXCompiler.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\3.16.0-rc2\CMakeRCCompiler.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\3.16.0-rc2\CMakeSystem.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\AddCXXCompilerFlag.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\CXXFeatureCheck.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\GetGitVersion.cmake;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\gnu_posix_regex.cpp;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\posix_regex.cpp;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\std_regex.cpp;C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark\cmake\steady_clock.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\ZERO_CHECK.vcxproj">
+      <Project>{30529204-B3D0-3411-BD79-9C75DC494474}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\basic_test.vcxproj">
+      <Project>{ACDB097A-32BD-3CDA-BF01-36ECB65BA04C}</Project>
+      <Name>basic_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\src\benchmark.vcxproj">
+      <Project>{20E5A75C-5B8C-318E-A0E1-1D7A5836F320}</Project>
+      <Name>benchmark</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\src\benchmark_main.vcxproj">
+      <Project>{C559817B-BAE4-34D6-AF51-12BAA25C593E}</Project>
+      <Name>benchmark_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\benchmark_test.vcxproj">
+      <Project>{CD2B9535-2C08-38F4-BAE1-F13EA1FC57EC}</Project>
+      <Name>benchmark_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\complexity_test.vcxproj">
+      <Project>{86AB8B08-4381-3459-AE85-C55D59F5826E}</Project>
+      <Name>complexity_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\diagnostics_test.vcxproj">
+      <Project>{4677A2D8-AD1D-3D0C-8108-4227D196A102}</Project>
+      <Name>diagnostics_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\display_aggregates_only_test.vcxproj">
+      <Project>{68E94720-2CBB-37F7-A96F-FEF8345F0C63}</Project>
+      <Name>display_aggregates_only_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\donotoptimize_test.vcxproj">
+      <Project>{2E92E461-A06F-36D5-A60F-86EBECEFB397}</Project>
+      <Name>donotoptimize_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\filter_test.vcxproj">
+      <Project>{719550E6-219B-38B9-9981-953F52C69473}</Project>
+      <Name>filter_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\fixture_test.vcxproj">
+      <Project>{F397C9EB-45DA-3BBA-B2C1-5ED4498AF488}</Project>
+      <Name>fixture_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\internal_threading_test.vcxproj">
+      <Project>{B32B9288-2A21-348F-8A6E-59CC25B8F66D}</Project>
+      <Name>internal_threading_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\link_main_test.vcxproj">
+      <Project>{16663A17-06C6-35DD-A375-0346BC6A25F8}</Project>
+      <Name>link_main_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\map_test.vcxproj">
+      <Project>{D1B5B433-0EF9-3558-A5B5-BC58F0E24FA4}</Project>
+      <Name>map_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\memory_manager_test.vcxproj">
+      <Project>{4925BBE5-F8A5-3D5F-9107-7F1FF637AAC1}</Project>
+      <Name>memory_manager_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\multiple_ranges_test.vcxproj">
+      <Project>{5DEC6837-572E-38CC-A766-5B2CE356D526}</Project>
+      <Name>multiple_ranges_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\options_test.vcxproj">
+      <Project>{FBBD7FC0-1BA7-3989-AA45-FB282B8D0F62}</Project>
+      <Name>options_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\output_test_helper.vcxproj">
+      <Project>{E1D6CC5E-5657-3B17-926B-C9B499DEB6E8}</Project>
+      <Name>output_test_helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\register_benchmark_test.vcxproj">
+      <Project>{198B407B-B092-3BD7-A5B5-78FABB62229B}</Project>
+      <Name>register_benchmark_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\report_aggregates_only_test.vcxproj">
+      <Project>{AA2DDD02-E37D-39ED-B41B-D1AA3C454B25}</Project>
+      <Name>report_aggregates_only_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\reporter_output_test.vcxproj">
+      <Project>{A6D89C53-BDFD-3701-ABE6-C12A1695A4DC}</Project>
+      <Name>reporter_output_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\skip_with_error_test.vcxproj">
+      <Project>{58BFDE90-C990-3877-AD22-0A0BD985A899}</Project>
+      <Name>skip_with_error_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\templated_fixture_test.vcxproj">
+      <Project>{BD83D1CE-0C13-35C3-A5F5-6BAFDA13ED9C}</Project>
+      <Name>templated_fixture_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\user_counters_tabular_test.vcxproj">
+      <Project>{E8B22BB5-E316-3293-97B9-ED8533419751}</Project>
+      <Name>user_counters_tabular_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\user_counters_test.vcxproj">
+      <Project>{BB506A11-A483-34C3-93F8-4DF64CB30EF1}</Project>
+      <Name>user_counters_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\Debug\googlebenchmark-prefix\src\googlebenchmark-build\test\user_counters_thousands_test.vcxproj">
+      <Project>{5FD3CCC3-B05D-3F27-AFA1-CC6B6F72E34B}</Project>
+      <Name>user_counters_thousands_test</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

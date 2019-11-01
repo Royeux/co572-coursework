@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\microbenchmarks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\solution.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Dell\Desktop\School\Year 3\CO572\co572-coursework\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{724E3EFF-1D17-3B6B-A894-0C47434D1269}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

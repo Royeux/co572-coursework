@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+cmd='C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_INSTALL_PREFIX=C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/deps;-DBENCHMARK_DOWNLOAD_DEPENDENCIES=ON;-DBENCHMARK_ENABLE_GTEST_TESTS=OFF;-DCMAKE_BUILD_TYPE=Debug;-GVisual Studio 16 2019;-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community;<SOURCE_DIR><SOURCE_SUBDIR>'
+=======
 cmd='/usr/local/Cellar/cmake/3.15.4/bin/cmake;-DCMAKE_INSTALL_PREFIX=/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/deps;-DBENCHMARK_DOWNLOAD_DEPENDENCIES=ON;-DBENCHMARK_ENABLE_GTEST_TESTS=OFF;-DCMAKE_BUILD_TYPE=Debug;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
+>>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48

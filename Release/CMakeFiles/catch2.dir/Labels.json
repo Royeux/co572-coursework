@@ -2,6 +2,36 @@
 	"sources" : 
 	[
 		{
+<<<<<<< HEAD
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/catch2"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/928ca61771083bc742ad0b21ff4aa21c/catch2.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/8fed65f312ae17a64b23ac6f34004fc9/catch2-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/1877c1eeeaed21d54127e5ce10838bac/catch2-install.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/1877c1eeeaed21d54127e5ce10838bac/catch2-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/1877c1eeeaed21d54127e5ce10838bac/catch2-download.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/1877c1eeeaed21d54127e5ce10838bac/catch2-update.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/1877c1eeeaed21d54127e5ce10838bac/catch2-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/1877c1eeeaed21d54127e5ce10838bac/catch2-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Release/CMakeFiles/1877c1eeeaed21d54127e5ce10838bac/catch2-build.rule"
+=======
 			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/CMakeFiles/catch2"
 		},
 		{
@@ -30,6 +60,7 @@
 		},
 		{
 			"file" : "/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Release/catch2-prefix/src/catch2-stamp/catch2-build.rule"
+>>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
 		}
 	],
 	"target" : 

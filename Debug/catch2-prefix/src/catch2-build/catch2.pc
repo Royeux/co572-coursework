@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+includedir=C:/Users/Dell/Desktop/School/Year 3/CO572/co572-coursework/Debug/deps/include
+=======
 includedir=/Users/nithyaniti/Nithya's Work/Imperial Exchange/CO572/co572-coursework1/co572-coursework/Debug/deps/include
+>>>>>>> ef51fd04f5ed860904f755eef52f9fc83979da48
 
 Name: Catch2
 Description: A modern, C++-native, header-only, test framework for C++11
